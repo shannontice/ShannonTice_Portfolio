@@ -19,4 +19,4 @@ Link to deployed code:  <https://github.com/shannontice/ShannonTice_Portfolio>
 
 The following image shows the web application's appearance and functionality:
 
-
+![The Portfolio includes a navigation bar, an about me section, as well as a list of projects accompanied by background images.](./assets/Images/Shannons%20Portfolio%20Mock-Up.png)
