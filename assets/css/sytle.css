@@ -1,0 +1,189 @@
+    * {
+    margin: 0px; 
+    font-family: Optima, sans-serif;
+    box-sizing: border-box;}
+
+    header a {color:#fff;
+    text-decoration: none;}
+
+    html, body {
+        height: 100%;
+    }
+
+    body {
+        flex-direction: column;
+    }
+
+    img {
+        max-width: 100%;
+    }
+
+    .row, .column {
+        display: flex;
+    }
+
+    .column {
+        flex-direction: column;
+    }
+
+    .justify-between {
+        justify-content: space-between;
+    }
+
+    .align-center {
+        align-items: center;
+    }
+
+    .align-conent {
+        align-content: end;
+    }
+
+    .background-gradient {
+        background: linear-gradient(to bottom, #BC8F8F, #F5DEB3);
+        color: white;
+    }
+
+    .background-color {
+        background-color:#F5DEB3;;
+    }
+
+    header {
+        background-color: #BC8F8F;
+        padding: 10px 1%;
+        display: flex;
+    }
+   
+    header h2 {
+        color: white;
+        font-size: 48px;
+    }
+
+    header nav a {
+        position: relative;
+        margin-right: 0px;
+        font-size: 20px;
+    }
+
+    header nav a:not(:last-child) {
+        margin-right: 5px;
+    }
+
+    header nav a:after {
+        content:'';
+        width: 100%;
+        height: 1px;
+        background-color: white;
+        position: absolute;
+        bottom: -5px;
+        left: 0;
+        border-radius: 3px;
+        transform: scaleX(0);
+        transition: transform .4s;
+        transform-origin: top left;
+    }
+    
+    header nav a:hover:after {
+        transform: scaleX(1);
+    }
+
+    header img {
+        max-width: 120px;
+        max-height: 120px;
+        display: flex;
+        align-items: center;
+        border-radius: 20%;
+    }
+
+    main {
+        display: block;
+    }
+
+    h3 {
+        font-size: 30px;
+        color: #836464;
+        text-align: center;
+    }
+
+    h3#Projects {
+        padding-top: 2%;
+    }
+
+    p {
+        text-align: center;
+    }
+
+    .Project-Label {
+        background-color: #F5DEB3;
+        border:3px solid #BC8F8F;
+        font-size: 1.5rem;
+    }
+
+    .Projects {
+        display: flex;
+        min-height: 500px;
+        max-height: 500px;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-end;
+        padding: 0 0 20px 0;
+        margin: 20px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        text-decoration: none;
+    }
+
+    .First-Project {
+        display: flex;
+        min-height: 650px;
+        max-height: 650px;
+    }
+
+    span {
+        color: #BC8F8F;
+        font-size: 1.2rem;
+    }
+
+    #Surf-Report {
+        background-image: url(../Images/Surf\ Report\ 05.jpeg);
+    }
+
+    #Led-Wall {
+        background-image: url(../Images/LED\ 02.jpeg);
+    }
+
+    #Calculator {
+        background-image: url(../Images/Calculator\ 02.jpeg);
+    }
+
+    #Pastel-Puzzle {
+        background-image: url(../Images/Pastel\ 03.jpeg);
+    }
+
+    #Run-Buddy {
+        background-image: url(../Images/Run\ .jpeg);
+    }
+
+    footer {
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+
+    .Contact {
+        color: #836464;
+        text-align: center;
+        font-size: 2rem;
+        padding: 1% 2%;
+    }
+
+    .Contact li {
+        list-style: none;
+        padding: 20px 20px;
+    }
+
+    .Contact li a {
+        color:#836464;
+        font-weight: bold;
+        text-decoration: none;
+        font-size: 1.2rem;
+    }
